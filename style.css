@@ -1,0 +1,125 @@
+body {
+    background-color: #faebd7; /* AntiqueWhite */
+	margin: 0;
+}
+/* shape of website */
+#content {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* about me section (flexbox) */
+#about-me {
+	display: flex;
+	align-items: center;
+	line-height: 1.5;
+	gap: 20px;
+}
+
+#bio-pic img {
+	width: 200px;
+	height: 200px;
+	margin-left: 20px;
+	border-radius: 15px;
+	object-fit: cover;
+}
+
+#bio-text {
+	flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+    #about-me {
+        flex-direction: column;
+		text-align: center;
+    }
+}
+
+/* header */
+header {
+	color: #191970; /* MidnightBlue */
+	background-color: #faf0e6; /* Linen */
+	text-align: center;
+	font-family: 'Open Sans', Arial, sans-serif;
+	padding: 20px;
+	margin: 20px;
+	font-size: 1rem;
+	border: ridge #191970;
+	border-radius: 12px;
+}
+
+#title-para {
+	text-align: center;
+	font-style: italic;
+	font-size: 1rem;
+}
+
+#rania-desc {
+	text-align: center;
+	font-size: 1.1rem;
+	color: #191970;
+}
+
+/* about me, things i love, and passion projects */
+section {
+	background-color: #fffaf0;
+	padding: 20px;
+	margin: 20px;
+	border: ridge #191970;
+	border-radius: 12px;
+}
+
+section img {
+	height: auto;
+	max-width: 100%;
+}
+
+
+p {
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-align: left;
+	line-height: 1.5;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #191970;
+}
+
+ul {
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-align: left;
+	line-height: 1.5;
+	font-size: 1rem;
+	font-weight: 500;
+	color: #191970;
+}
+
+
+h2 {
+	color: #191970; /* MidnightBlue */
+	font-size: 1.5rem;
+}
+
+h3 {
+	color: #191970;
+	font-size: 1.2rem;
+}
+
+h1, h2, h3 {
+	font-family: 'Caladea', Times New Roman, serif;
+}
+
+hr {
+	height: 2px;
+	background-color: #000080;
+}
+
+/* footer */
+footer
+{
+	background-color: #faf0e6;
+	padding: 20px;
+	margin: 20px;
+	border: ridge #191970;
+	border-radius: 12px;
+}
