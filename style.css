@@ -4,7 +4,7 @@ body {
 }
 /* shape of website */
 #content {
-    width: 90%;
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -70,11 +70,31 @@ section {
 	border-radius: 12px;
 }
 
-section img {
-	height: auto;
-	max-width: 100%;
+.projects {
+	display: flex;
+	align-items: center;
+	line-height: 1.5;
+	gap: 20px;
 }
 
+.project-pic img {
+	width: 300px;
+	height: auto;
+	border-radius: 15px;
+	object-fit: cover;
+}
+
+.project-text {
+	flex: 1;
+	padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .projects {
+        flex-direction: column;
+		text-align: center;
+    }
+}
 
 p {
 	font-family: 'Open Sans', Arial, sans-serif;
